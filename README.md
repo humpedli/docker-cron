@@ -18,9 +18,9 @@ Create a cronfile like this somewhere and define this file as a volume in docker
 0 2 * * * /usr/bin/find /volume/path* -mtime +30 delete
 ```
 
-**This example runs the `http://example.com/script.php` script every Monday and Thrursday at midnight (using basic http authentication) and clears files every day at 2 AM in the `/volume/path` directory which are older than 30 days.**
+*This example runs the `http://example.com/script.php` script every Monday and Thrursday at midnight (using basic http authentication) and clears files every day at 2 AM in the `/volume/path` directory which are older than 30 days.*
 
-**Mount volumes like `/volume/path` from host system if it's needed.**
+*Mount volumes like `/volume/path` from host system if it's needed.*
 
 ## Usage
 
