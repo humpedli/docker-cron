@@ -1,0 +1,2 @@
+0 0 * * 1,4 /usr/bin/wget --http-user=test --http-password=test -q -O /dev/null "http://example.com/script.php"
+0 2 * * * /usr/bin/find /volume/path* -mtime +30 delete
